@@ -50,3 +50,37 @@ function calculate() {
         </div>
     </div>
 </template>
+
+<style>
+.panel h2 {
+    font-size: 1.1rem;
+    color: #0d712e;
+    font-weight: bold;
+}
+
+.panel {
+    padding: 20px;
+    border: 2px solid #125527;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+.input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #125527;
+    border-radius: 4px;
+}
+
+.small-btn{
+    padding: 10px;
+    color:#083015;
+    border-radius: 4px;
+    border: 1px solid #125527;
+    cursor: pointer;
+    background: #f7faf8;
+    font-size: 0.875rem;
+}
+</style>
