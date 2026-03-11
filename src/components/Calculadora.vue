@@ -57,6 +57,54 @@ function calculate() {
 </template>
 
 <style>
+.panel h2 {
+    font-size: 1.2rem;
+    color: #0d712e;
+    font-weight: bold;
+}
+
+.panel {
+    padding: 30px;
+    border: 2px solid #125527;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    margin: 0 10vw 0 10vw;
+    text-align: center;
+}
+
+.input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #125527;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.small-btn{
+    padding: 10px;
+    color:#083015;
+    border-radius: 4px;
+    border: 1px solid #125527;
+    cursor: pointer;
+    background: #f7faf8;
+    font-size: 0.875rem;
+}
+.result {
+    font-size: 1rem;
+}
+
+.success {
+    color: green;
+    font-weight: bold;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
+
 @media (max-width: 600px){
 .panel h2 {
     font-size: 1.1rem;
