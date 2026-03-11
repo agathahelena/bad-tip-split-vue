@@ -117,6 +117,7 @@ function calculate() {
     border: 2px solid #125527;
     border-radius: 4px;
     margin-bottom: 30px;
+    margin: 0 2vw 0 2vw;
 }
 
 .input {
@@ -126,6 +127,7 @@ function calculate() {
     margin-bottom: 10px;
     border: 1px solid #125527;
     border-radius: 4px;
+    font-size: 0.9rem;
 }
 
 .small-btn{
