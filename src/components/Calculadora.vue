@@ -57,6 +57,7 @@ function calculate() {
 </template>
 
 <style>
+@media (max-width: 600px){
 .panel h2 {
     font-size: 1.1rem;
     color: #0d712e;
@@ -100,5 +101,6 @@ function calculate() {
 .error {
     color: red;
     font-weight: bold;
+}
 }
 </style>
